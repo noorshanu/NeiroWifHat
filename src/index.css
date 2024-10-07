@@ -48,7 +48,7 @@
   }
 
  .main-bg{
-  background: linear-gradient(180deg, #ffe1bb, #74737300);
+  background: linear-gradient(180deg, #ffd800, #ffd90065);
  }
 
  .txt-s{
@@ -71,7 +71,7 @@
     }
   }
   body{
-    background: linear-gradient(180deg, #ffe1bb, #636262);
+    background: linear-gradient(180deg, #ffd800, #ffd90065);
   }
 
   .hero-main{
