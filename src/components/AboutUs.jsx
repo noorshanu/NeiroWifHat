@@ -32,7 +32,7 @@ function AboutUs() {
                   WHO IS NEIROH YOU ASK
                 </h1>
                 <p className=" mx-auto text-center px-2 text-base font-medium  text-black">
-                  Leading the Neiro Army like an absolute boss: Bulls? Bears?
+                NEIROH is  Leading the Neiro Army like an absolute boss: Bulls? Bears?
                   HA! It’s all about memes and fueled by Lambo dreams, bro! The
                   grind? Simple—laugh our way straight to the moon, in pure
                   alpha style. VROOOOOM! 🏎️💨
