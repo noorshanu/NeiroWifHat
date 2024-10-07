@@ -25,7 +25,7 @@ function Hero() {
 
             <p className=" text-xl font-bold mb-8">Memecoin with the most rizz on Solana</p>
             <div  className="bg-[#ffffff] text-[14px] z-30 w-[200px]  rounded-full border-4 px-5 py-[5px] border-black font-semibold sm:w-full">
-         Coming Soon
+        BJ2ENyjuBGUQJr6CCDBcGAQNQDbayoNbDziDGrWSQQ4
             </div>
             <div className=" mt-4 flex gap-2 items-start justify-start">
               <a
