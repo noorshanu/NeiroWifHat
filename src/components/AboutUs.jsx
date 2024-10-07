@@ -20,7 +20,7 @@ function AboutUs() {
             </div>
 
             <div className=" w-full sm:w-1/2 ">
-              <div className="bg-[#7e419c] border-4 box-s2 rounded-2xl border-black py-2 max-w-sm mx-auto px-2 ">
+              <div className="bg-[#b52bf3] border-4 box-s2 rounded-2xl border-black py-2 max-w-sm mx-auto px-2 ">
                 <h1 className="text-center font-bold text-xl text-white">
                   NeiroWifHat – the OG hat-wearing Doge, the real bro of NEIRO!
                   <br />
@@ -28,7 +28,7 @@ function AboutUs() {
               </div>
 
               <div className=" bg-white border-4 box-s2 rounded-2xl border-black py-8 max-w-sm mx-auto px-2">
-                <h1 className="txt-s text-[28px] font-bold text-[#7e419c] font-little stroke-black text-center">
+                <h1 className="txt-s text-[28px] font-bold text-[#b52bf3] font-little stroke-black text-center">
                   WHO IS NEIROH YOU ASK
                 </h1>
                 <p className=" mx-auto text-center px-2 text-base font-medium  text-black">

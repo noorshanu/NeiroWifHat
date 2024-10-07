@@ -21,25 +21,25 @@ function Navbar() {
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center bg-white rounded-b-3xl max-w-md items-center ">
-          <a href="/" className="text-[#843ea0] font-bold text-lg px-3 py-2">
+          <a href="/" className="text-[#b52bf3] font-bold text-lg px-3 py-2">
             Home
           </a>
           <a
             href="#about"
-            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+            className="text-[#b52bf3] font-bold text-lg px-3 py-2"
           >
             About
           </a>
           <a
             href="#token"
-            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+            className="text-[#b52bf3] font-bold text-lg px-3 py-2"
           >
             Tokenomics
           </a>
 
           <a
             href="#contact"
-            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+            className="text-[#b52bf3] font-bold text-lg px-3 py-2"
           >
             Contact Us
           </a>
@@ -52,7 +52,7 @@ function Navbar() {
               href="https://x.com/NeiroWifHat_sol"
               rel="noreferrer"
               target="_blank"
-              className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+              className=" text-xl text-black bg-[#b52bf3] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
             >
               <BsTwitterX />
             </a>
@@ -61,7 +61,7 @@ function Navbar() {
               href="https://t.me/NeiroWifHat_sol"
               target="_blank"
               rel="noreferrer"
-              className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+              className=" text-xl text-black bg-[#b52bf3] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
             >
               <FaTelegram />
             </a>

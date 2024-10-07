@@ -14,7 +14,7 @@ function Hero() {
               Welcome To
             </h2>
 
-            <h1 className=" txt-s text-[50px] sm:text-[100px] font-bold text-[#7e419c] font-little stroke-black  ">
+            <h1 className=" txt-s text-[50px] sm:text-[100px] font-bold text-[#b52bf3] font-little stroke-black  ">
               {" "}
               NeiroWifHat
             </h1>
@@ -43,7 +43,7 @@ function Hero() {
                 {" "}
               Telegram
               </a>
-              <a href="/" className=" font-dream box-s2   text-xl text-white bg-[#7e419c] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#000] txt-s w-[150px] sm:w-[200px] text-center font-bold uppercase">
+              <a href="/" className=" font-dream box-s2   text-xl text-white bg-[#b52bf3] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#000] txt-s w-[150px] sm:w-[200px] text-center font-bold uppercase">
               Buy NEIROH
               </a>
             </div>
