@@ -29,7 +29,7 @@ function Hero() {
             </div>
             <div className=" mt-4 flex gap-2 items-start justify-start">
               <a
-                href="https://www.dextools.io/app/en/solana/pair-explorer/87WnWxCNUCN8nrTGw6ichQNcZ4XFQCwvRwgXeJS1D5VD?t=1727796935725"
+                href="https://www.dextools.io/app/en/solana/pair-explorer/"
                 className="  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[150px] sm:w-[200px] text-center font-bold uppercase"
               >
                 {" "}
@@ -37,7 +37,7 @@ function Hero() {
               </a>
 
               <a
-                href="https://x.com/BlackNeiroSol"
+                href="https://t.me/NeiroWifHat_sol"
                 className="hidden sm:block  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[150px] sm:w-[200px] text-center font-bold uppercase"
               >
                 {" "}

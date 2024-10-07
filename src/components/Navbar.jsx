@@ -11,42 +11,61 @@ function Navbar() {
       <div className=" container-wrapper mx-auto  flex justify-between   px-8 pb-1 ">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="images/logo.png" className="h-[70px]" alt=" Logo" />
-
-       
-        </a>
-
+          <a
+            href="/"
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="images/logo.png" className="h-[70px]" alt=" Logo" />
+          </a>
         </div>
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center bg-white rounded-b-3xl max-w-md items-center ">
-          <a href="/" className="text-[#843ea0] font-bold text-lg px-3 py-2">Home</a>
-          <a href="#about" className="text-[#843ea0] font-bold text-lg px-3 py-2">About</a>
-          <a href="#col" className="text-[#843ea0] font-bold text-lg px-3 py-2">Tokenomics</a>
-         
-          <a href="#contact" className="text-[#843ea0] font-bold text-lg px-3 py-2">Contact Us</a>
+          <a href="/" className="text-[#843ea0] font-bold text-lg px-3 py-2">
+            Home
+          </a>
+          <a
+            href="#about"
+            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+          >
+            About
+          </a>
+          <a
+            href="#token"
+            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+          >
+            Tokenomics
+          </a>
+
+          <a
+            href="#contact"
+            className="text-[#843ea0] font-bold text-lg px-3 py-2"
+          >
+            Contact Us
+          </a>
         </div>
 
         {/* Wallet Connect button */}
         <div className="md:flex items-center">
-        <div className=" flex items-center gap-4 text-white  ml-5">
-        <a
-                  href="https://x.com/BlackNeiroSol" rel="noreferrer" target="_blank"
-                  className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <BsTwitterX />
-                </a>
-             
-           
+          <div className=" flex items-center gap-4 text-white  ml-5">
+            <a
+              href="https://x.com/NeiroWifHat_sol"
+              rel="noreferrer"
+              target="_blank"
+              className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+            >
+              <BsTwitterX />
+            </a>
 
-                <a
-                  href="https://t.me/BlackNeiroSolana" target="_blank"  rel="noreferrer"
-                  className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <FaTelegram />
-                </a>
-              </div>
+            <a
+              href="https://t.me/NeiroWifHat_sol"
+              target="_blank"
+              rel="noreferrer"
+              className=" text-xl text-black bg-[#843ea0] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+            >
+              <FaTelegram />
+            </a>
+          </div>
         </div>
 
         {/* Hamburger menu for mobile */}
@@ -88,28 +107,43 @@ function Navbar() {
             ref={ref}
             className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4"
           >
-            <a href="/" className="text-black font-bold text-lg block px-3 py-2">Home</a>
-          
-            <a href="#about" className="text-black font-bold text-lg block px-3 py-2">About</a>
-            <a href="#col" className="text-black font-bold text-lg block px-3 py-2">Features</a>
-            
-            <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a
-                  href="https://x.com/BlackNeiroSol"
-                  className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <BsTwitterX />
-                </a>
-             
-           
+              href="/"
+              className="text-black font-bold text-lg block px-3 py-2"
+            >
+              Home
+            </a>
 
-                <a
-                  href="https://t.me/BlackNeiroSolana" target="_blank" rel="noreferrer"
-                  className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <FaTelegram />
-                </a>
-              </div>
+            <a
+              href="#about"
+              className="text-black font-bold text-lg block px-3 py-2"
+            >
+              About
+            </a>
+            <a
+              href="#col"
+              className="text-black font-bold text-lg block px-3 py-2"
+            >
+              Features
+            </a>
+
+            <div className=" flex items-center gap-4 text-white mb-6 ml-5">
+              <a
+                href="https://x.com/NeiroWifHat_sol"
+                className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+              >
+                <BsTwitterX />
+              </a>
+
+              <a
+                href="https://t.me/NeiroWifHat_sol"
+                target="_blank"
+                rel="noreferrer"
+                className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+              >
+                <FaTelegram />
+              </a>
+            </div>
           </div>
         )}
       </Transition>

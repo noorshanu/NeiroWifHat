@@ -15,7 +15,7 @@ const Tokenomics = () => {
         </div>
 
         <div className="bg-[#cda979] text-white font-semibold py-2 px-4 rounded-md mb-2">
-          <p className=' txt-s text-2xl font-dream'>Total Supply: 100,000,000,000 </p>
+          <p className=' txt-s text-2xl font-dream'>Total Supply: 1,000,000,000 </p>
         </div>
 
         <div className="bg-red-400 text-white font-semibold py-2 px-4 rounded-md mb-2">
