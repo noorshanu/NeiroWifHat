@@ -3,7 +3,7 @@ import Slider from "./Slider";
 
 function HowToBuy() {
   return (
-    <section className=" py-[8%]">
+    <section className=" py-[40%] sm:py-[8%]">
       <div className=" container-wrapper">
         <div className=" flex items-center justify-center gap-4">
           {/* <div

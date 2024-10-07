@@ -14,7 +14,7 @@ function Hero() {
               Welcome To
             </h2>
 
-            <h1 className=" txt-s text-[100px] font-bold text-[#7e419c] font-little stroke-black  ">
+            <h1 className=" txt-s text-[50px] sm:text-[100px] font-bold text-[#7e419c] font-little stroke-black  ">
               {" "}
               NeiroWifHat
             </h1>
@@ -24,13 +24,13 @@ function Hero() {
             </p>
 
             <p className=" text-xl font-bold mb-8">Memecoin with the most rizz on Solana</p>
-            <div  className="bg-[#ffffff] text-[14px] z-30 w-full  rounded-full border-4 px-5 py-[5px] border-black font-semibold">
+            <div  className="bg-[#ffffff] text-[14px] z-30 w-[200px]  rounded-full border-4 px-5 py-[5px] border-black font-semibold sm:w-full">
          Coming Soon
             </div>
             <div className=" mt-4 flex gap-2 items-start justify-start">
               <a
                 href="https://www.dextools.io/app/en/solana/pair-explorer/87WnWxCNUCN8nrTGw6ichQNcZ4XFQCwvRwgXeJS1D5VD?t=1727796935725"
-                className="  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[200px] text-center font-bold uppercase"
+                className="  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[150px] sm:w-[200px] text-center font-bold uppercase"
               >
                 {" "}
                 DexTools
@@ -38,12 +38,12 @@ function Hero() {
 
               <a
                 href="https://x.com/BlackNeiroSol"
-                className="  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[200px] text-center font-bold uppercase"
+                className="hidden sm:block  font-dream box-s2   text-xl text-black bg-[#ffffff] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[150px] sm:w-[200px] text-center font-bold uppercase"
               >
                 {" "}
               Telegram
               </a>
-              <a href="/" className=" font-dream box-s2   text-xl text-white bg-[#7e419c] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#000] w-[200px] text-center font-bold uppercase">
+              <a href="/" className=" font-dream box-s2   text-xl text-white bg-[#7e419c] hover:bg-[#f4dc75] rounded-full p-2 border-2 border-[#000]  hover:text-[#000] txt-s w-[150px] sm:w-[200px] text-center font-bold uppercase">
               Buy NEIROH
               </a>
             </div>
