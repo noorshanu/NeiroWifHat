@@ -22,8 +22,6 @@ function App() {
         <div className=" relative flex flex-col sm:flex-row justify-evenly items-center gap-8 py-[2%]  ">
           <div className="bg-[#7e419c] font-little text-center text-[40px] lg:text-[100px] flex justify-center items-center z-30 -bottom-[100px]  h-[140px] border-y-4 border-black absolute w-[calc(100vw+100px)]  lg:w-[1600px]">
             <p className=" text-white txt-s">Tokenomics</p>
-
-         
           </div>
         </div>
         <Taxs />
@@ -31,18 +29,15 @@ function App() {
 
         <div className=" relative flex flex-col sm:flex-row justify-evenly items-center gap-8 py-[2%]  ">
           <div className="bg-[#7e419c] font-little w-[calc(100vw+100px)]  text-center text-[40px] lg:text-[100px]  flex justify-center items-center z-30 top-0  h-[140px] border-y-4 border-black absolute ">
-            <p className="text-white txt-s">How To Buy $BNEIRO</p>
+            <p className="text-white txt-s">How To Buy $NEIROH</p>
           </div>
         </div>
         <HowToBuy />
 
-  
-      
-      
-<div>
-  <BorderSec/>
-</div>
-      <Footer/>
+        <div>
+          <BorderSec />
+        </div>
+        <Footer />
       </div>
     </>
   );

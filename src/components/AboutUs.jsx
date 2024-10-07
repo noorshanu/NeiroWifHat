@@ -14,7 +14,7 @@ function AboutUs() {
    
       <div className=" container-wrapper  pb-5">
         <div className="relative  my-2  ">
-          <div className=" flex justify-between flex-col sm:flex-row items-center ">
+          <div className=" flex justify-between flex-col-reverse sm:flex-row items-center ">
             <div className=" w-full sm:w-1/2">
               <img src="images/tax.png" alt="" className=" floating" />
             </div>
