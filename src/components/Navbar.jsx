@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <nav className="   z-40">
-      <div className=" container-wrapper mx-auto  flex justify-between   px-8 pb-1 ">
+      <div className=" container-wrapper mx-auto  flex justify-between sm:pt-0 pt-1  px-8 pb-1 ">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
           <a
@@ -121,10 +121,10 @@ function Navbar() {
               About
             </a>
             <a
-              href="#col"
+              href="#token"
               className="text-black font-bold text-lg block px-3 py-2"
             >
-              Features
+              Tokenomics
             </a>
 
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
